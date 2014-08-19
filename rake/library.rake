@@ -63,6 +63,7 @@ namespace :library do
   desc 'all library tasks'
   task :all do
       Rake::Task["library:archive"].invoke
+      Rake::Task["library:compile"].invoke
       Rake::Task["library:dep"].invoke
   end
 

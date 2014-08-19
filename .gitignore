@@ -2,3 +2,6 @@ target
 file.tar.gz
 binary_data.c
 binary_data.c
+config.log
+config.status
+autom4te.cache/*
